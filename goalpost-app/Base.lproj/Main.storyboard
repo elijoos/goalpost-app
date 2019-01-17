@@ -217,8 +217,7 @@
                                         </constraints>
                                         <state key="normal" image="back"/>
                                         <connections>
-                                            <action selector="addGoalBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HJz-mJ-ELA"/>
-                                            <action selector="backBtnWasPressed:" destination="97z-0q-5MZ" eventType="touchUpInside" id="g81-oG-TZw"/>
+                                            <action selector="backBtnWasPressed:" destination="97z-0q-5MZ" eventType="touchUpInside" id="RRA-kX-UWV"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -358,6 +357,9 @@
                                             <constraint firstAttribute="width" constant="30" id="znM-o8-B2i"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnWasPressed:" destination="yDk-2t-mEg" eventType="touchUpInside" id="7j4-NI-Upf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
