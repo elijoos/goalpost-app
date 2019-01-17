@@ -40,9 +40,8 @@ class CreateGoalVC: UIViewController, UITextViewDelegate {
             
             finishGoalVC.initData(description: goalTextView.text!, type: goalType)
             
-            presentDetail(finishGoalVC)
-            
-            
+            //BY CALLING OUR PRESENT SECONDARY DETAIN WE ARE DISMISSING BACK TO GOALSVC AND THEN ANIMATING TO FINISHGOALVC. THAT WAY WHEN WE CALL DISMISS IN FINISHGOALVC IT WILL GO BACK TO GOALSVC
+            presentingViewController?.presentSecondaryDetail(finishGoalVC)
         }
     }
     

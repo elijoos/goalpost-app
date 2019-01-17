@@ -40,8 +40,9 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
             
             self.save { (complete) in
                 //code
-                dismiss(animated: true, completion: nil)
+                
             }
+            dismissDetail()
         }
         
     }
